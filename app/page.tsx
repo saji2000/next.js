@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Events from "./components/Events";
 
 export default function Home() {
   return (
     <main>
-      <p>Hello World!</p>
+      <Events />
     </main>
   );
 }
